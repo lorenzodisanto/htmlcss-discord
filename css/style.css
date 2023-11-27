@@ -1,0 +1,411 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  min-height: 120px;
+  background-color: rgb(49 97 224);
+
+  /* DEBUG 
+  background-color: rgb(170, 227, 227);
+  */
+}
+
+.header-left {
+  flex-grow: 1;
+  padding: 10px;
+  align-content: center;
+  background-color: rgb(49 97 224);
+
+  /* DEBUG 
+  background-color: rgb(238, 238, 133);
+  border: 1px dashed black;*/
+}
+
+.header-center {
+  flex-grow: 5;
+  text-align: center;
+  padding: 15px;
+  align-content: center;
+  background-color: rgb(49 97 224);
+
+  /* DEBUG 
+  background-color: rgb(238, 238, 133);
+  border: 1px dashed black;*/
+}
+
+a {
+  text-decoration: none;
+  margin: 15px;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.login-button {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 25px;
+  color: black;
+}
+
+.header-right {
+  flex-grow: 1;
+  text-align: end;
+  padding: 15px;
+  align-content: center;
+  background-color: rgb(49 97 224);
+
+  /* DEBUG 
+  background-color: rgb(238, 238, 133);
+  border: 1px dashed black;*/
+}
+
+/* NAV */
+nav {
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+
+  /* DEBUG 
+  background-color: rgb(4, 4, 112);*/
+}
+
+.nav-container {
+  width: 55%;
+  margin: 0 auto;
+  height: 500px;
+
+  /* DEBUG 
+  background-color: violet;
+  border: 1px dashed black;*/
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 3.3rem;
+  color: white;
+  text-align: center;
+}
+.description {
+  margin: 60px;
+  font-size: 1.3rem;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+}
+
+.download {
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  background-color: white;
+  border-radius: 35px;
+  color: black;
+}
+
+.download::before {
+  content: "\1F817";
+  padding: 0px 10px;
+  padding-left: 0;
+}
+
+.open {
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  background-color: rgb(35 39 42);
+  border-radius: 35px;
+  color: white;
+}
+
+/* MAIN */
+
+section {
+  display: flex;
+  align-items: center;
+
+  /* DEBUG */
+  min-height: 600px;
+}
+
+.section-left {
+  width: 60%;
+  height: 500px;
+  align-content: center;
+
+  /* DEBUG 
+  background-color: rgb(132, 171, 171);
+  border: 1px dashed black;*/
+}
+
+.section-right {
+  width: 40%;
+  height: 500px;
+  align-content: center;
+
+  /* DEBUG 
+  background-color: pink;
+  border: 1px dashed black;*/
+}
+
+.right-description {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 40px;
+}
+
+.small-description {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+.odd {
+  background-color: white;
+}
+
+.wave {
+  width: 100%;
+  display: flex;
+}
+
+.wave-reverse {
+  width: 100%;
+  transform: scaleY(-1);
+}
+
+.even {
+  background-color: rgb(246 246 246);
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.big-section {
+  display: flex;
+  height: 1100px;
+}
+
+.section-center {
+  width: 100%;
+  height: 1000px;
+  align-items: center;
+
+  /* DEBUG 
+  background-color: rgb(2, 92, 2);
+  border: 1px dashed black;*/
+}
+
+.big-descriptiontitle {
+  width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.big-description {
+  width: 860px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+.big-items {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.star-container {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.download-footbox {
+  margin-top: 60px;
+}
+
+.download-foot {
+  margin-top: 40px;
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  background-color: rgb(142 161 225);
+  border-radius: 35px;
+  color: white;
+}
+
+.download-foot::before {
+  content: "\1F817";
+  padding: 0px 10px;
+  padding-left: 0;
+}
+
+/* FOOTER */
+
+.foot-titlecontainer {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.foot-title {
+  font-size: 2.6rem;
+  color: rgb(116 139 223);
+  text-align: left;
+}
+
+.flag-language {
+  height: 10px;
+  margin-top: 25px;
+  line-height: 10px;
+}
+.language {
+  background-color: rgb(35 39 42);
+  color: white;
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+.flag {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.social {
+  margin-top: 30px;
+}
+
+.icon-social {
+  width: 25px;
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  padding: 8px;
+}
+
+.list-title {
+  margin-left: 15px;
+  font-size: 1.3rem;
+  color: rgb(116 139 223);
+}
+
+.foot-back {
+  display: flex;
+  height: 550px;
+  align-items: flex-start;
+  padding-top: 10px;
+  background-color: rgb(35 39 42);
+}
+
+.foot-left {
+  width: 40%;
+  height: 450px;
+  align-content: center;
+
+  /* DEBUG 
+  background-color: rgb(241, 156, 171);
+  border: 1px dashed black;*/
+}
+
+.foot-right {
+  width: 15%;
+  height: 450px;
+  align-content: center;
+
+  /* DEBUG 
+  background-color: rgb(0, 128, 119);
+  border: 1px dashed black;*/
+}
+
+.foot-bot {
+  display: flex;
+  align-items: flex-end;
+  height: 150px;
+  background-color: rgb(35 39 42);
+  /* DEBUG 
+  border-top: 1px solid white;*/
+}
+
+.foot-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  height: 120px;
+  border-top: 1px solid rgb(142 161 225);
+
+  /* DEBUG 
+  background-color: aquamarine;
+  border: 1px dashed black;*/
+}
+
+.foot-logo {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  padding: 15px;
+  padding-left: 0;
+
+  /* DEBUG 
+  background-color: pink;
+  border: 1px dashed black;*/
+}
+
+.foot-button {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  padding: 15px;
+  padding-right: 0;
+
+  /* DEBUG 
+  background-color: pink;
+  border: 1px dashed black;*/
+}
+
+.registrati {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: rgb(142 161 225);
+  border-radius: 35px;
+  color: white;
+  margin-right: 0;
+}
