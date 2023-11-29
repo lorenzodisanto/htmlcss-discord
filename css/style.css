@@ -20,7 +20,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  min-height: 120px;
+  height: 120px;
   background-color: rgb(49 97 224);
 
   /* DEBUG 
@@ -92,7 +92,7 @@ nav {
 .nav-container {
   width: 55%;
   margin: 0 auto;
-  height: 500px;
+  min-height: 500px;
 
   /* DEBUG 
   background-color: violet;
@@ -116,6 +116,7 @@ h1 {
 .nav-button {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .download {
@@ -153,6 +154,7 @@ section {
 .section-left {
   width: 60%;
   height: 500px;
+  display: flex;
   align-content: center;
 
   /* DEBUG 
@@ -164,10 +166,16 @@ section {
   width: 40%;
   height: 500px;
   align-content: center;
+  flex-wrap: wrap;
 
   /* DEBUG 
   background-color: pink;
   border: 1px dashed black;*/
+}
+
+.item {
+  width: 100%;
+  align-items: center;
 }
 
 .right-description {
@@ -188,6 +196,7 @@ h2 {
 
 .odd {
   background-color: white;
+  min-width: 1000px;
 }
 
 .wave {
@@ -202,6 +211,7 @@ h2 {
 
 .even {
   background-color: rgb(246 246 246);
+  min-width: 1000px;
 }
 
 .reverse {
